@@ -38,3 +38,16 @@ function menghitung_luas_lingkaran(phi, r){
 console.log(menghitung_luas_lingkaran(15, 7))
 
 //tugas no. 5
+let a = -30 ;
+let b = 10 ;
+let c = 56 ;
+
+
+console.log(Math.max( a, b, c))
+console.log(Math.min( a, b, c))
+function menghitung_nilai_rata_rata (a, b, c ) {
+  let rata_rata = (a + b + c ) /3;
+    return rata_rata
+   
+}
+console.log(menghitung_nilai_rata_rata(-30, 10, 56));
