@@ -15,68 +15,157 @@ tentukan bilangan terbesar, terkecil dan rataratanya.
 
 
     JAWABAN
-
+    
 //Tugas 1"
-proggram hitung luas persegi panjang 
-Ddeklarasi:
-var panjang, lebar, luas:Integer
-Algoritma:
-Panjang : 10
-Lebar   :4
 
-Luas <- Panjang * Lebar :
-L<- 10 * 4
-write <40>
+proggram_hitung_luas_persegi_panjang 
+
+Deklarasi:
+
+var panjang, lebar, luas:angka;
+
+Algoritma:
+
+baca (panjang)
+
+baca (lebar)
+
+Luas=( Panjang * Lebar )
+
+tulis (luas)
+
 
 
 //Tugas 2"
-Program Konveksi Detik
-Deklarasi :
+
+Mengubah_Jam_Dan_Menit_Yang_Diinput_Kedalam_Satuan_Detik.
+
 Jam,Menit, hasil: Integer
-Deskripsi:
-    Print("Masukan milai jam:")
-    read(Jam)
-    print("masukan nilai menit:")
-    read(menit)
-        Jam<= jam * 3600
-        menit<= menit * 60
-        hasil<= Jam + menit
-Print ("Hasil konversi ke detik:"+ hasil)
+
+Algoritma:
+
+cetak ("masukan nilai jam;")
+
+cetak ("masukan nilai menit:")
+
+baca (menit)
+
+Jam = jam * 3600
+
+Menit = menit * 60
+
+Hasil = jam * menit
+
+cetak ("hasil konveksi kedeik:" + hasil)
+
 
 
 //tugas 3"
+
 Menentukan Bilangan ganjil genap
+
 Deklarasi:
 
-Bilangan, hasil: Integer
-bilangan : string
+Bilangan, hasil: angka
+
 deskripsi:
 
-read (biangan);
+baca (biangan);
+
 Hasil = bilangan %2
+
         if(hasil !=0)then
+
         bil=ganjil
 
     els
+
         bil genap
 
-write("Angka"+bilangan+"adalah bilangan"+bil)
 
 
 //tugas 4"
-Proram hitung luas lingkaran
-deklarasi
-var phi:integer ;
+
+Proram_hitung-luas_lingkaran
+
+deklarasi:
+
+var phi: angka desimal ;
+
+var r, luas:angka;
+
 Algoritma:
 
-Diameter :
-    Jari-jari:....
-    phi<-- 22/7 or 3,14
+baca (phi 3,14)
 
-    read (7) ;{diinput user}
+baca (r)
 
-luas <-- phi * r * r
+luas= (phi* r *r)
+
+tulis(luas)
+
 
 
 //tugas 5"
+
+Input a,b,c
+
+   if a>b dan a>c maka
+   
+   if b>c maka
+   
+cetak "Terbesar a"
+
+cetak "Terkecil c"
+
+else
+
+cetak "Terbesar a"
+
+cetak "Terkecil b"
+
+end if
+
+else 
+
+  if a>b dan a<c maka
+
+cetak "Terbesar c"
+
+cetak "Terkecil b"
+                  
+else
+                  
+   if a < b dan a > c maka
+   
+cetak "Terbesar b"
+
+cetak "Terkecil c"
+
+else
+
+   if b>c maka
+
+cetak "Terbesar b"
+
+cetak "Terkecil a"
+
+else
+
+cetak "terbesar c "
+
+cetak "Terkecil a"
+
+end if
+
+end if
+
+end if
+
+end if
+
+rata-rata = (a+b+c)/3
+
+cetak "rata-rata
+
 
