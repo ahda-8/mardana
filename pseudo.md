@@ -38,9 +38,9 @@ tulis (luas)
 
 //Tugas 2"
 
-Mengubah_Jam_Dan_Menit_Yang_Diinput_Kedalam_Satuan_Detik.
+Program Mengubah_Jam_Dan_Menit_Yang_Diinput_Kedalam_Satuan_Detik.
 
-Jam,Menit, hasil: Integer
+Jam,Menit, hasil: Angka
 
 Algoritma:
 
@@ -56,13 +56,13 @@ Menit = menit * 60
 
 Hasil = jam * menit
 
-cetak ("hasil konveksi kedeik:" + hasil)
+cetak (hasil)
 
 
 
 //tugas 3"
 
-Menentukan Bilangan ganjil genap
+Program Menentukan Bilangan ganjil genap
 
 Deklarasi:
 
@@ -76,11 +76,11 @@ Hasil = bilangan %2
 
         if(hasil !=0)then
 
-        bil=ganjil
+        cetak "blangan ganjil"
 
     els
 
-        bil genap
+        cetak "bilangan genap"
 
 
 
