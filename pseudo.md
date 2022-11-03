@@ -74,7 +74,7 @@ baca (biangan);
 
 Hasil = bilangan %2
 
-        if(hasil !=0)then
+        jika(hasil tidak=0) jadi
 
         cetak "blangan ganjil"
 
@@ -100,7 +100,7 @@ baca (phi 3,14)
 
 baca (r)
 
-luas= (phi* r *r)
+luas= (3,14* r *r)
 
 tulis(luas)
 
@@ -108,64 +108,25 @@ tulis(luas)
 
 //tugas 5"
 
-Input a,b,c
+Program menentukan_bilangan_terkecil_terbesar_dan_rata-rata
 
-   if a>b dan a>c maka
+deklarasi
+
+var a, b, c:
+
+algoritma
+
+bilangan terbesar
+
+jika (a>b dan a>c) maka
    
-   if b>c maka
-   
-cetak "Terbesar a"
+    cetak(terbesar a)
 
-cetak "Terkecil c"
+jika (b > a dan b > c)maka
 
-else
+    cetak(terbesar b)
 
-cetak "Terbesar a"
+jika (c > a dan c > b )maka
 
-cetak "Terkecil b"
-
-end if
-
-else 
-
-  if a>b dan a<c maka
-
-cetak "Terbesar c"
-
-cetak "Terkecil b"
-                  
-else
-                  
-   if a < b dan a > c maka
-   
-cetak "Terbesar b"
-
-cetak "Terkecil c"
-
-else
-
-   if b>c maka
-
-cetak "Terbesar b"
-
-cetak "Terkecil a"
-
-else
-
-cetak "terbesar c "
-
-cetak "Terkecil a"
-
-end if
-
-end if
-
-end if
-
-end if
-
-rata-rata = (a+b+c)/3
-
-cetak "rata-rata
-
+     cetak(terbesar c)
 
