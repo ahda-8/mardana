@@ -20,83 +20,79 @@ tentukan bilangan terbesar, terkecil dan rataratanya.
 
 proggram_hitung_luas_persegi_panjang 
 
-Deklarasi:
+deklarasi:
 
 var panjang, lebar, luas:angka;
 
-Algoritma:
+algoritma:
 
 baca (panjang)
 
 baca (lebar)
 
-Luas=( Panjang * Lebar )
+luas=( panjang * lebar )
 
 tulis (luas)
 
-
+,
 
 //Tugas 2"
 
-Program Mengubah_Jam_Dan_Menit_Yang_Diinput_Kedalam_Satuan_Detik.
-
-Jam,Menit, hasil: Angka
-
-Algoritma:
-
-cetak ("masukan nilai jam;")
-
-cetak ("masukan nilai menit:")
-
-baca (menit)
-
-Jam = jam * 3600
-
-Menit = menit * 60
-
-Hasil = jam * menit
-
-cetak (hasil)
-
-
-
-//tugas 3"
-
-Program Menentukan Bilangan ganjil genap
-
-Deklarasi:
-
-Bilangan, hasil: angka
-
-deskripsi:
-
-baca (biangan);
-
-Hasil = bilangan %2
-
-        jika(hasil tidak=0) jadi
-
-        cetak "blangan ganjil"
-
-    els
-
-        cetak "bilangan genap"
-
-
-
-//tugas 4"
-
-Proram_hitung-luas_lingkaran
+program mengubah_jam_dan_menit_yang_diinput_kedalam_satuan_detik.
 
 deklarasi:
 
-var phi: angka desimal ;
+var jam,menit, hasil: angka
 
-var r, luas:angka;
+algoritma:
 
-Algoritma:
+baca (jam)
 
-baca (phi 3,14)
+baca (menit)
+
+jam = jam * 3600
+
+menit = menit * 60
+
+hasil = jam * menit
+
+cetak (hasil)
+
+,
+
+//tugas 3"
+
+Program menentukan_bilangan_ganjil_genap
+
+deklarasi:
+
+var bilangan, hasil: angka
+
+deskripsi:
+
+baca (bilangan);
+
+hasil = bilangan %2
+
+        jika(bilangan tidak=0) maka
+
+         cetak "blangan ganjil"
+
+        lainnya
+
+         cetak "bilangan genap"
+
+,
+
+//tugas 4"
+
+Proram hitung_luas_lingkaran
+
+deklarasi:
+
+var r,hasil:angka
+
+algoritma:
 
 baca (r)
 
@@ -104,7 +100,7 @@ luas= (3,14* r *r)
 
 tulis(luas)
 
-
+,
 
 //tugas 5"
 
@@ -116,7 +112,13 @@ var a, b, c:
 
 algoritma
 
-bilangan terbesar
+baca(a)
+
+baca(b)
+
+baca(c)
+
+bilangan terbesar:
 
 jika (a>b dan a>c) maka
    
@@ -126,7 +128,22 @@ jika (b > a dan b > c)maka
 
     cetak(terbesar b)
 
-jika (c > a dan c > b )maka
+lainnya
 
      cetak(terbesar c)
 
+jika (a < b dan a < c)
+
+    cetak(terkecil a)
+    
+jika (b < a dan b < c)
+
+    cetak(terkecil b)
+    
+lainnya
+
+    cetak(terkecil c)
+    
+rata-rata = (a+b+c)/3
+
+    cetak(rata-rata)
