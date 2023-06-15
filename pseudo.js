@@ -51,3 +51,4 @@ function menghitung_nilai_rata_rata (a, b, c ) {
    
 }
 console.log(menghitung_nilai_rata_rata(-30, 10, 56));
+//coba
